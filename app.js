@@ -18,5 +18,5 @@ function generatePin() {
 }
 
 document.getElementById('key-pad').addEventListener('click', function (event) {
-    console.log('Clicked');
+    console.log(event.target);
 });
